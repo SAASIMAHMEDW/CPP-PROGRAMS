@@ -11,11 +11,11 @@ while(t!=0){
 else {
        ld=x%3;
        d=x/3;
-      if(ld!=0) {
- sum=(ld*y)+(d*3*y)+(d*z);
- 		}
+      if(ld!=0){
+           sum=(ld*y)+(d*3*y)+(d*z);
+ 	}
        else {
- 		sum=(d*3*y)+((d-1)*z);
+ 	   sum=(d*3*y)+((d-1)*z);
  }
  }
  cout<<sum<<endl;
