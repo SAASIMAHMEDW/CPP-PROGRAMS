@@ -2,15 +2,15 @@
 using namespace std;
 int main() {
 // your code goes here
-int times,N,M,K,c;
+int times,N,Max,K,res;
 cout<<"ENTER NUMBER OF TEST CASES: "<<endl;
 cin>>times;
 while(times--)
 {
 cout<<"ENTER VALUE FOR TEST CASE: "<<times+1<<endl;
- cin>>N>>M>>K;
- c=K+N;
- if(c<=M)
+ cin>>N>>Max>>K;
+ res=K+N;
+ if(res<=max)
  {
  cout<<"YES"<<endl;
  }
