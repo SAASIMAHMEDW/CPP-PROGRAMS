@@ -1,4 +1,5 @@
-#include <bits/stdc++.h>
+//#include <bits/stdc++.h>
+#include<iostream>
 using namespace std;
 int main(void) {
 int t,x,y,z,sum,d,ld;
